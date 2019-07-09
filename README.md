@@ -15,10 +15,10 @@ npm install -g json-server
 ## Install npm packages
 >npm install
 
-## RUN WITHOUT API JSON SERVER
-In todos.component.ts uncomment constructor with MockTodoService and comment the other one. 
-constructor(private todoService:MockTodoService) { }
-//constructor(private todoService:TodoService) { }
+## RUN WITHOUT API
+In todos.component.ts uncomment constructor with MockTodoService and comment the other one. \n
+constructor(private todoService:MockTodoService) { } \n
+//constructor(private todoService:TodoService) { } \n
 
 ### RUN
 ng serve
