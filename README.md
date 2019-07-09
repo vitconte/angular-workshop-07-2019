@@ -9,27 +9,26 @@ npm install -g json-server
 
 ## Clone Repository
 >git clone https://viconte@production.eng.it/gitlab/viconte/sgc.git  NLWeb 
-
 >cd todoapp
 
 ## Install npm packages
 >npm install
 
 ## RUN WITHOUT API
-In todos.component.ts uncomment constructor with MockTodoService and comment the other one. \n
-constructor(private todoService:MockTodoService) { } \n
-//constructor(private todoService:TodoService) { } \n
+In todos.component.ts uncomment constructor with MockTodoService and comment the other one.
+> constructor(private todoService:MockTodoService) { }
+> //constructor(private todoService:TodoService) { } 
 
 ### RUN
-ng serve
+> ng serve
 
 ## RUN WITH API - JSON SERVER
-In todos.component.ts uncomment constructor with TodoService and comment the other one. 
-//constructor(private todoService:MockTodoService) { }
-constructor(private todoService:TodoService) { }
+In todos.component.ts uncomment constructor with TodoService and comment the other one.
+> //constructor(private todoService:MockTodoService) { } 
+> constructor(private todoService:TodoService) { }
 
 ### RUN
-json-server --watch db.json
-ng serve
+> json-server --watch db.json
+> ng serve
 
 ## HAVE FUN!
