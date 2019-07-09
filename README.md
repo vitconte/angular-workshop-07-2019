@@ -8,7 +8,7 @@
 npm install -g json-server
 
 ## Clone Repository
->git clone https://viconte@production.eng.it/gitlab/viconte/sgc.git  NLWeb <br/>
+>git clone https://github.com/vitconte/angular-workshop-07-2019.git  NLWeb <br/>
 >cd todoapp
 
 ## Install npm packages
